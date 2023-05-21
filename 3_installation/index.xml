@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Installation on Hugo Scenario-Based Documentation</title>
-    <link>http://techdocs.github.io/3_installation/</link>
+    <link>http://StellarXM.github.io/3_installation/</link>
     <description>Recent content in Installation on Hugo Scenario-Based Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 May 2023 17:20:00 +0000</lastBuildDate><atom:link href="http://techdocs.github.io/3_installation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 May 2023 17:20:00 +0000</lastBuildDate><atom:link href="http://StellarXM.github.io/3_installation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install Hugo</title>
-      <link>http://techdocs.github.io/3_installation/install_hugo/</link>
+      <link>http://StellarXM.github.io/3_installation/install_hugo/</link>
       <pubDate>Sat, 20 May 2023 17:20:00 +0000</pubDate>
       
-      <guid>http://techdocs.github.io/3_installation/install_hugo/</guid>
+      <guid>http://StellarXM.github.io/3_installation/install_hugo/</guid>
       <description>Hugo extended edition is used for building a documentation website. In this example, Hugo is installed in C:\hugo\bin.
 Install Hugo using a prebuilt binary archive:
 Visit the Hugo latest release page. Scroll down to the Assets section. Find and download the hugo_extended archive for your operating system and architecture (for example, hugo_extended_0.111.3_windows-amd64.zip). Extract the archive. Move the executable (hugo.exe) to your desired directory (for example, C:\hugo\bin) Add this directory to the PATH environment variable.</description>

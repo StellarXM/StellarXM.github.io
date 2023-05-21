@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prepare on Hugo Scenario-Based Documentation</title>
-    <link>http://techdocs.github.io/2_prepare/</link>
+    <link>http://StellarXM.github.io/2_prepare/</link>
     <description>Recent content in Prepare on Hugo Scenario-Based Documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 May 2023 17:20:00 +0000</lastBuildDate><atom:link href="http://techdocs.github.io/2_prepare/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 May 2023 17:20:00 +0000</lastBuildDate><atom:link href="http://StellarXM.github.io/2_prepare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prepare the Required Tools</title>
-      <link>http://techdocs.github.io/2_prepare/install_required_sw/</link>
+      <link>http://StellarXM.github.io/2_prepare/install_required_sw/</link>
       <pubDate>Sat, 20 May 2023 17:20:00 +0000</pubDate>
       
-      <guid>http://techdocs.github.io/2_prepare/install_required_sw/</guid>
+      <guid>http://StellarXM.github.io/2_prepare/install_required_sw/</guid>
       <description>Install and Configure Visual Studio Code Download Visual Studio Code (VS Code). Install VS Code with the default settings. Open VS Code. Click Extensions and search &amp;ldquo;markdown&amp;rdquo;. In the search result, find and install the following two plug-ins: Markdown All in One: Markdown assistant tool markdownlint: Markdown style checking and quick fix tool Install Git Prerequisite: The editor (for example, Visual Studio Code) to be used as Git&amp;rsquo;s default editor has been installed.</description>
     </item>
     
     <item>
       <title>Plan the Project Structure</title>
-      <link>http://techdocs.github.io/2_prepare/plan_directory/</link>
+      <link>http://StellarXM.github.io/2_prepare/plan_directory/</link>
       <pubDate>Sat, 20 May 2023 17:20:00 +0000</pubDate>
       
-      <guid>http://techdocs.github.io/2_prepare/plan_directory/</guid>
+      <guid>http://StellarXM.github.io/2_prepare/plan_directory/</guid>
       <description>Plan how you will store the Hugo installation file and your website project. In this document, we will use the following project structure.
 |-hugo|-bin|-hugo.exe|-techdocs.github.io &amp;lt;--Your site directory </description>
     </item>
