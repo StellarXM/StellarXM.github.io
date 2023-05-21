@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Build a Website on Hugo Scenario-Based Documentation</title>
+    <link>http://techdocs.github.io/4_build-a-website/</link>
+    <description>Recent content in Build a Website on Hugo Scenario-Based Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 May 2023 17:20:00 +0000</lastBuildDate><atom:link href="http://techdocs.github.io/4_build-a-website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a Local Website</title>
+      <link>http://techdocs.github.io/4_build-a-website/build_a_website/</link>
+      <pubDate>Sat, 20 May 2023 17:20:00 +0000</pubDate>
+      
+      <guid>http://techdocs.github.io/4_build-a-website/build_a_website/</guid>
+      <description>Create a Local Website In this example, a new site named techdocs.github.io is created in the C:\hugo directory.
+Open a command line tool.
+Some command line tools:
+Microsoft Visual Studio Code (VS Code): Press CTRL+` to open the command line terminal. Windows Command Prompt PowerShell Git Bash On the command line, create a website using the following command:
+hugo new site hugo/techdocs.github.io The website is created with the following default directories (the directories may vary for different themes):</description>
+    </item>
+    
+    <item>
+      <title>Open and Configure the Local Website</title>
+      <link>http://techdocs.github.io/4_build-a-website/open_the_website/</link>
+      <pubDate>Sat, 20 May 2023 17:20:00 +0000</pubDate>
+      
+      <guid>http://techdocs.github.io/4_build-a-website/open_the_website/</guid>
+      <description>In Windows file browser, copy the config.toml file from the C:\hugo\techdocs.github.io\themes\hugo-theme-techdoc\exampleSite directory to the C:\hugo\techdocs.github.io directory, replacing the existing config.toml file. This only needs to be done once.
+Open the local website.
+hugo server The command output information Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) shows the web address of the local website.
+Open http://localhost:1313/ in your web browser.
+Configure the website to better fulfil your requirements while keeping the website open in your web browser.</description>
+    </item>
+    
+  </channel>
+</rss>

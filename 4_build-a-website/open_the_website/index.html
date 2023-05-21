@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Open and Configure the Local Website - Hugo Scenario-Based Documentation</title>
+<meta name="description" content="This site includes the instructions to build a static documentation website and publish the website to the Internet. Currently, only the instructions for Windows are available. Instructions for other operating systems will be added later.">
+<meta name="generator" content="Hugo 0.111.3">
+<link href="http://techdocs.github.io/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="http://techdocs.github.io/4_build-a-website/open_the_website/">
+<link rel="stylesheet" href="http://techdocs.github.io/css/theme.min.css">
+<link rel="stylesheet" href="http://techdocs.github.io/css/chroma.min.css">
+<script defer src="http://techdocs.github.io/js/fontawesome6/all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha256-4XodgW4TwIJuDtf+v6vDJ39FVxI0veC/kSCCmnFp7ck=" crossorigin="anonymous"></script>
+<script src="http://techdocs.github.io/js/bundle.js"></script><style>
+:root {--custom-background-color: rgb(54, 67, 92);}
+</style>
+<meta property="og:title" content="Open and Configure the Local Website" />
+<meta property="og:description" content="In Windows file browser, copy the config.toml file from the C:\hugo\techdocs.github.io\themes\hugo-theme-techdoc\exampleSite directory to the C:\hugo\techdocs.github.io directory, replacing the existing config.toml file. This only needs to be done once.
+Open the local website.
+hugo server The command output information Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) shows the web address of the local website.
+Open http://localhost:1313/ in your web browser.
+Configure the website to better fulfil your requirements while keeping the website open in your web browser." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://techdocs.github.io/4_build-a-website/open_the_website/" /><meta property="og:image" content="http://techdocs.github.io/images/og-image.png"/><meta property="article:section" content="4_Build a Website" />
+<meta property="article:published_time" content="2023-05-20T17:20:00+00:00" />
+<meta property="article:modified_time" content="2023-05-20T17:20:00+00:00" /><meta property="og:site_name" content="Hugo Techdoc Theme" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://techdocs.github.io/images/og-image.png"/>
+
+<meta name="twitter:title" content="Open and Configure the Local Website"/>
+<meta name="twitter:description" content="In Windows file browser, copy the config.toml file from the C:\hugo\techdocs.github.io\themes\hugo-theme-techdoc\exampleSite directory to the C:\hugo\techdocs.github.io directory, replacing the existing config.toml file. This only needs to be done once.
+Open the local website.
+hugo server The command output information Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) shows the web address of the local website.
+Open http://localhost:1313/ in your web browser.
+Configure the website to better fulfil your requirements while keeping the website open in your web browser."/>
+<meta itemprop="name" content="Open and Configure the Local Website">
+<meta itemprop="description" content="In Windows file browser, copy the config.toml file from the C:\hugo\techdocs.github.io\themes\hugo-theme-techdoc\exampleSite directory to the C:\hugo\techdocs.github.io directory, replacing the existing config.toml file. This only needs to be done once.
+Open the local website.
+hugo server The command output information Web Server is available at http://localhost:1313/ (bind address 127.0.0.1) shows the web address of the local website.
+Open http://localhost:1313/ in your web browser.
+Configure the website to better fulfil your requirements while keeping the website open in your web browser."><meta itemprop="datePublished" content="2023-05-20T17:20:00+00:00" />
+<meta itemprop="dateModified" content="2023-05-20T17:20:00+00:00" />
+<meta itemprop="wordCount" content="108"><meta itemprop="image" content="http://techdocs.github.io/images/og-image.png"/>
+<meta itemprop="keywords" content="" /></head>
+<body><div class="container"><header>
+<h1>Hugo Scenario-Based Documentation</h1><span class="version">Version 0.1</span><a href="https://github.com/thingsym/hugo-theme-techdoc" class="github"><i class="fab fa-github"></i></a>
+<p class="description">This site includes the instructions to build a static documentation website and publish the website to the Internet. Currently, only the instructions for Windows are available. Instructions for other operating systems will be added later.</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li id="home" class=""><a href="/"><i class='fa fa-heart'></i>&nbsp;Home</a></li></ul>
+</nav>
+</div>
+
+<div class="content-container">
+<main><h1>Open and Configure the Local Website</h1>
+<ol>
+<li>
+<p>In Windows file browser, copy the <code>config.toml</code> file from the <code>C:\hugo\techdocs.github.io\themes\hugo-theme-techdoc\exampleSite</code> directory to the <code>C:\hugo\techdocs.github.io</code> directory, replacing the existing <code>config.toml</code> file. This only needs to be done once.</p>
+</li>
+<li>
+<p>Open the local website.</p>
+<pre tabindex="0"><code class="language-hugo" data-lang="hugo">hugo server
+</code></pre><p>The command output information <code>Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)</code> shows the web address of the local website.</p>
+</li>
+<li>
+<p>Open <code>http://localhost:1313/</code> in your web browser.</p>
+</li>
+<li>
+<p>Configure the website to better fulfil your requirements while keeping the website open in your web browser. Your saved changes are reflected in the website timely.</p>
+<p>For instructions on configuring the Hugo site, see the descriptions of the parameters in the <code>config.toml</code> file or the <a href="https://gohugo.io/content-management/">Hugo Guide</a>.</p>
+</li>
+</ol>
+<div class="edit-meta">
+Last updated on 20 May 2023
+
+
+<br>
+Published on 20 May 2023
+<br><a href="https://github.com/thingsym/hugo-theme-techdoc/edit/master/4_Build%20a%20Website%5copen_the_website.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="http://techdocs.github.io/4_build-a-website/build_a_website/" title="Build a Local Website"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - Build a Local Website</a>
+<a class="nav nav-next" href="http://techdocs.github.io/5_add-contents/" title="Add Contents">Next - Add Contents <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="slide-menu">
+<ul>
+<li class=""><a href="http://techdocs.github.io">Home</a></li>
+
+<li class=" has-sub-menu"><a href="http://techdocs.github.io/1_overview/">Overview<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://techdocs.github.io/1_overview/overview/">Overview</a></li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="http://techdocs.github.io/2_prepare/">Prepare<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://techdocs.github.io/2_prepare/install_required_sw/">Prepare the Required Tools</a></li>
+<li class=""><a href="http://techdocs.github.io/2_prepare/plan_directory/">Plan the Project Structure</a></li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="http://techdocs.github.io/3_installation/">Installation<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://techdocs.github.io/3_installation/install_hugo/">Install Hugo</a></li>
+</ul>
+  
+</li>
+
+<li class="parent has-sub-menu"><a href="http://techdocs.github.io/4_build-a-website/">Build a Website<span class="mark opened">-</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://techdocs.github.io/4_build-a-website/build_a_website/">Build a Local Website</a></li>
+<li class="active"><a href="http://techdocs.github.io/4_build-a-website/open_the_website/">Open and Configure the Local Website</a></li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="http://techdocs.github.io/5_add-contents/">Add Contents<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://techdocs.github.io/5_add-contents/add_contents/">Add Contents to the Website</a></li>
+</ul>
+  
+</li>
+
+<li class=" has-sub-menu"><a href="http://techdocs.github.io/6_publish-the-website/">Publish the Website<span class="mark closed">+</span></a>
+  
+<ul class="sub-menu">
+<li class=""><a href="http://techdocs.github.io/6_publish-the-website/publish_the_website/">Publish the Website to the Internet</a></li>
+</ul>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>
